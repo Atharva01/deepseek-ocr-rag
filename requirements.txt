@@ -1,0 +1,53 @@
+# requirements.txt
+# Core web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# DeepSeek OCR and ML
+transformers
+torch
+torchvision
+torchaudio
+accelerate
+safetensors
+pillow
+addict
+numpy
+
+# RAG and Vector DB
+langchain
+langchain-community
+langchain-core
+chromadb
+openai
+
+# Pydantic v2 for Python 3.12
+pydantic
+pydantic-core
+
+# Utilities
+python-dotenv
+aiofiles
+requests
+httpx
+tenacity
+tqdm
+
+# Optional: PDF processing
+pypdf
+pdf2image
+python-pptx
+
+# Optional: Image processing
+opencv-python
+scikit-image
+
+# Development tools
+pytest
+pytest-asyncio
+black
+isort
+mypy
+jupyter
+ipython
